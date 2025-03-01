@@ -1,62 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-            <title> home page </title>
-            <style type="text/css"> 
-                .set{width:100%;}
-                .main{width:1000px; height:540px; background-color:red; }
-                .row1{width:1000px; height:100px; background-color:green;font-size:50px; text-align:center; }
-                .row2{width:1000px; height:40px; background:green; font-size:20px; text-align:center; }
-                .row2-col1{width:200px; height:40px; background:green; float:left;}
-                .row2-col2{width:200px; height:40px; background:green; float:left;}
-                .row2-col3{width:200px; height:40px; background:green; float:left;}
-                .row2-col4{width:200px; height:40px; background:green; float:left;}
-                .row2-col5{width:200px; height:40px; background:green; float:left;}
-                .row3{width:1000px; height:200px; background:green; font-size:20px; text-align:center; }
-                .row3-col1{width:250px; height:200px; background:green; float:left;}
-                .row3-col2{width:750px; height:200px; background:green; float:left;}
-                
-                .row4{width:1000px; height:150px; background:green; font-size:20px; text-align:center; }
-                .row5{width:1000px; height:100px; background:green; }
-                .row5-col1{width:330px; height:100px; background:green; float:left; }
-                .row5-col2{width:330px; height:100px; background:green; float:left; }
-                .row5-col3{width:330px; height:100px; background:green; float:left; }
-                .row6{width:1000px; height:50px; background:green; font-size:20px; text-align:center; }
-
-            </style>
+            <meta charset="UTF-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title> portfolio website </title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="mediaqueries.css">
+                        
     </head>
 
-    <body class="set">       
-        <div class="main">
-            <div class="row1"> welcome to my first page </div>
-            <div class="row2">
-                 <div class="row2-col1">Home</div>
-                 <div class="row2-col2">About</div>
-                 <div class="row2-col3">Courses</div>
-                 <div class="row2-col4">Gallery</div>
-                 <div class="row2-col5">Contact us</div>
-            </div>
-            <div class="row3"> 
-                 
-                 <div class="row3-col2">
-                       <img src="dog.jpg" width:750px; height:200px; />
+    <body>       
+        <nav id="desktop-nav">
+           <div class="logo">Swapan Kumar Sarkar</div>
+           <div>
+              <ul class="nav-link">
+                  <li> <a href="#about">About</a> </li>
+                  <li> <a href="#experience">Experience</a> </li>
+                  <li> <a href="#project">Project</a> </li>
+                  <li> <a href="#contact">Contact</a> </li>
+              </ul>
+           </div>
+        </nav>
+        <nav id="humbergur-nav">
+            <div class="logo">Swapan Kumar Sarkar</div>
+            <div class="humbergur-menu">
+                 <div class="humbergur-icon" onclick="togglemenu()">
+                     <span></span>
+                     <span></span>
+                     <span></span>
                  </div>
-
+                 <div class="menu-link">
+                      <li> <a href="#about" onclick="togglemenu()">About</a> </li>
+                      <li> <a href="#experience" onclick="togglemenu()">Experience</a> </li>
+                      <li> <a href="#project" onclick="togglemenu()">Project</a> </li>
+                      <li> <a href="#contact" onclick="togglemenu()">Contact</a> </li>
+                 </div>              
+             </div>
+        </nav>
+    <section id="profile">
+         <div class="section__pic-container">
+            <img src="imagename"  alt="Swapan image" />
+         </div>
+         <div class="section__text">
+            <p class="section__text01">hello i'am</p>
+            <h1 class="title"> Swapan </h1>
+            <p class="section__text02">machine learning engineer</p>
+            <div class="btn_container">
+                <button class="btn btn-color1" onclick="window.open('./asset/example')"> download cv</button>
+                <button class="btn btn-color2" onclick="location.href='./#contact'"> contact info</button>
             </div>
-            <div class="row4">our clients</div>
-            <div class="row5">
-                  <div class="row5-col1">
-                       <img src="dog.jpg" width:330px; height:100px; />
-                  </div>
-                  <div class="row5-col2">image2</div>
-                  <div class="row5-col3">image3</div>
-
+            <div id="social-container">
+                 <img src="imagename"  alt="my linkedin profile" class="icon" onclick="location.href='https://'"/>
+                 <img src="imagename"  alt="my github profile" class="icon01" onclick="location.href='https://'"/>
             </div>
-            <div class="row6"> Home|About|Courses|Galery|Contact us </div>
-            
-                    
-        </div>
-                                  
+
+         </div>
+    
+    </section>                                  
     </body>
+    
+    <script src="script.js">
+        
+    </script>
 </html>
+
 
