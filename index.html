@@ -16,10 +16,10 @@
            <div>
               <ul class="nav-link">
                   <li> <a href="#about">About</a> </li>
-                  <li> <a href="#experience">Skills</a> </li>
-                  <li> <a href="#project">Project</a> </li>
+                  <li> <a href="#experience">Experience</a> </li>
+                  <li> <a href="#project">Projects</a> </li>
                   <li> <a href="#contact">Contact</a> </li>
-              <ul>
+              </ul>
            </div>
         </nav>
         <nav id="hamburger-nav">
@@ -32,21 +32,24 @@
                </div>
                <div class="menu-link">
                    <li> <a href="#about" onclick="toggleMenu()">About</a> </li>
-                   <li> <a href="#experience" onclick="toggleMenu()">Skills</a> </li>
-                   <li> <a href="#project" onclick="toggleMenu()">Project</a> </li>
+                   <li> <a href="#experience" onclick="toggleMenu()">Experience</a> </li>
+                   <li> <a href="#project" onclick="toggleMenu()">Projects</a> </li>
                    <li> <a href="#contact" onclick="toggleMenu()">Contact</a> </li>
                </div>
            </div>
         </nav>
-
-        <section id="profile">                  
+   
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/picture.jpg"  alt="img" class="picture" height="100px" />
+            </div>                 
             <div class="section__text">
                <p class="section__text__p1">hello i'am</p>
                <h1 class="title"> Swapan </h1>
                <p class="section__text__p2">Python Developer & ML</p>
-               <div class="btn_container">
+               <div class="btn-container">
                     <button class="btn btn-color-1" onclick="window.open('./assets/Resume_Swapan.pdf')"> download cv</button>
-                    <button class="btn btn-color-2" onclick="location.href='./#contact'"> contact info</button>
+                    <button class="btn btn-color-2" onclick="location.href='#contact'"> contact info</button>
                </div>
                <div id="social-container">
                    <img src="./assets/linkedin.png"  alt="my linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/sksarkar92'"/>
@@ -59,23 +62,26 @@
             <p class="section__text__p1">get to know more</p>
             <h1 class="title"> about me </h1>
             <div class="section-container">
-             
+             <div class="section__pic-container">
+                 <img src="./assets/picture0.jpg"  alt="img" class="picture" height="100px"/>
+             </div>
+
              <div class="about-details-container">
                  <div class="about-containers">
                       <div class="details-container">
                            <img src="./assets/experience.png"  alt="experience icon" class="icon" />
-                           <h3>skills</h3>
+                           <h3>experience</h3>
                            <p> 5+ years <br/>  </p>
                       </div>
                       <div class="details-container">
                            <img src="./assets/education.png"  alt="education icon" class="icon" />
                            <h3>education</h3>
-                           <p> bsc in Mathematics <br/> </p>
+                           <p> bsc in mathematics <br/> </p>
                        </div>
 
                   </div>
                   <div class="text-container">
-                         <p>Results-driven and detail-oriented Machine Learning Engineer & Python Developer with a strong foundation in mathematics & Python language and expertise in machine learning, python programming, deep learning, and computer vision passionate about solving real-world problems using AI and building scalable solutions. Experienced in developing machine learning models, some python projects and algorithms for image processing, object detection, and classification. Dedicated to continuous learning and leveraging technology to drive impactful outcomes.</p>
+                    <p>Results-driven and detail-oriented Machine Learning Engineer & Python Developer with a strong foundation in mathematics & Python language and expertise in machine learning, python programming, deep learning, and computer vision passionate about solving real-world problems using AI and building scalable solutions. Experienced in developing machine learning models, some python projects and algorithms for image processing, object detection, and classification. Dedicated to continuous learning and leveraging technology to drive impactful outcomes. Proven ability to design ,implement and maintain robust and scalable solutions.Seeking a challenging role to leverage my skills in Python, database management , Machine Learning  model creation.</p>
                   </div>
                </div>  
             </div>         
@@ -84,7 +90,7 @@
         
         <section id="experience">
             <p class="section__text__p1">explore my</p>
-            <h1 class="title"> skills </h1>
+            <h1 class="title"> experience </h1>
             <div class="experience-details-container">
                  <div class="about-containers">
                       <div class="details-container">                    
@@ -94,21 +100,21 @@
                                  <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                  <div>
                                     <h3>Machine Learning</h3>
-                                    <p></p>
+                                    <p>experience</p>
                                  </div>
                             </article>
                             <article>
                                 <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                 <div>
                                    <h3>Deep Learning</h3>
-                                   <p></p>
+                                   <p>intermediate</p>
                                 </div>
                             </article>
                             <article>
                                 <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                 <div>
                                    <h3>Computer Vision</h3>
-                                   <p></p>
+                                   <p>basic</p>
                                 </div>
                             </article>
                             
@@ -122,25 +128,26 @@
                                  <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                  <div>
                                     <h3>Python</h3>
-                                    <p></p>
+                                    <p>experience</p>
                                  </div>
                             </article>
                             <article>
                                 <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                 <div>
-                                   <h3>Django</h3>
-                                   <p></p>
+                                   <h3>MySQL</h3>
+                                   <p>intermediate</p>
                                 </div>
                             </article>
                             <article>
                                 <img src="./assets/experience.png"  alt="experience icon" class="icon" />
                                 <div>
-                                   <h3>MySQL</h3>
-                                   <p></p>
+                                   <h3>Django</h3>
+                                   <p>intermediate</p>
                                 </div>
-                            </article> 
+                            </article>
                           </div>                                                                        
                       </div>
+                      
                    </div>
                </div> 
                <img src="./assets/arrow.webp"  alt="arrow icon" class="icon arrow" onclick="location.href='./#project'" />                                 
@@ -153,18 +160,7 @@
                 <div class="about-containers">
                     <div class="details-container color-container">
                       <div class="article-container">
-                           <img src="./assets/NA.jpeg"  alt="project1" class="project-img" />
-                       </div>
-                       <h2 class="experience-sub-title project-title">object detection</h2>
-                       <div class="btn-container">
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">github</button>
-                            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1szF-e7lSpK9YHJ0ODmdcdFY2At4gwlD1/view?usp=drive_link'">live demo</button>
-                       </div>
-                     </div>
-                
-                     <div class="details-container color-container">
-                       <div class="article-container">
-                           <img src="./assets/NA.jpeg"  alt="project2" class="project-img" />
+                           <img src="./assets/projec.jpeg"  alt="project1" class="project-img" />
                        </div>
                        <h2 class="experience-sub-title project-title">E-commerce app</h2>
                        <div class="btn-container">
@@ -172,56 +168,84 @@
                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://s3w1a0p5a7n.pythonanywhere.com/'">live demo</button>
                        </div>
                      </div>
+                
+                     <div class="details-container color-container">
+                       <div class="article-container">
+                           <img src="./assets/projec.jpeg"  alt="project2" class="project-img" />
+                       </div>
+                       <h2 class="experience-sub-title project-title">Pharmacy Management System</h2>
+                       <div class="btn-container">
+                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">github</button>
+                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1TgFRY8BYjONx37kZINAVcJwvVCJOOrdp/view?usp=drive_link'">live demo</button>
+                       </div>
+                     </div>
+                     <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/projec.jpeg"  alt="project3" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Object Detection</h2>
+                        <div class="btn-container">
+                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">github</button>
+                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1szF-e7lSpK9YHJ0ODmdcdFY2At4gwlD1/view?usp=drive_link'">live demo</button>
+                        </div>
+                      </div>
                       
                       <div class="details-container color-container">
                         <div class="article-container">
-                            <img src="./assets/NA.png"  alt="project3" class="project-img" />
+                            <img src="./assets/projec.jpeg"  alt="project4" class="project-img" />
                         </div>
-                        <h2 class="experience-sub-title project-title">Pharmacy Management System</h2>
+                        <h2 class="experience-sub-title project-title">Upcoming</h2>
                         <div class="btn-container">
                              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">github</button>
-                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1TgFRY8BYjONx37kZINAVcJwvVCJOOrdp/view?usp=drive_link'">live demo</button>
+                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">live demo</button>
                         </div>
                       </div>
+                      <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/projec.jpeg"  alt="project5" class="project-img" />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Upcoming</h2>
+                        <div class="btn-container">
+                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">github</button>
+                             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">live demo</button>
+                        </div>
+                      </div>
+                      
+                 </div>
+            </div>                                                                                                                                                                                                                                                                                                                             
+        </section> 
+       
+        <section id="contact">
+            <p class="section__text__p1">get in touch</p>
+            <h1 class="title"> contact me </h1>
+            <div class="contact-info-upper-container">
+                 <div class="contact-info-container">
+                      <img src="./assets/mail.webp"  alt="email icon" class="icon contact-icon email-icon" />
+                      <p><a href="mailto:sksarkar2outlook@gmail.com">sksarkar2outlook@gmail.com</a></p>
+                      
+                 </div>
+                 <div class="contact-info-container">
+                      <img src="./assets/linkedin.png"  alt="linkedin icon" class="icon contact-icon" />
+                      <p><a href="https://linkedin.com/in/sksarkar92">linkedin</a></p>
+                 </div>
+                 <div class="contact-info-container">
+                     <img src="./assets/phone.png"  alt="phone icon" class="icon contact-icon phone-icon" />
+                     +917738327203
+                 </div>
+            </div>
+        </section>
 
-                 </div>
-            </div> 
-            <img src="./assets/arrow.webp"  alt="arrow icon" class="icon arrow" onclick="location.href='./#project'" />                                                                                                                                                                                                                                                                                                                             
-          </section> 
-          
-          <section id="contact">
-              <p class="section__text__p1">get in touch</p>
-              <h1 class="title"> contact me </h1>
-              <div class="contact-info-upper-container">
-                   <div class="contact-info-container">
-                        <img src="./assets/mail.webp"  alt="email icon" class="icon contact-icon email-icon" />
-                        <p><a href="mailto:sksarkar2outlook@gmail.com">sksarkar2outlook@gmail.com</a></p>
-                        
-                   </div>
-                   <div class="contact-info-container">
-                        <img src="./assets/linkedin.png"  alt="linkedin icon" class="icon contact-icon" />
-                        <p><a href="https://www.linkedin.com/in/sksarkar92">linkedin</a></p>
-                   </div>
-                   <div class="contact-info-container">
-                       <img src="./assets/phone.png"  alt="phone icon" class="icon phone-icon" />
-                       +917738327203
-                   </div>
-              </div>
-          </section>
-   
-          <footer>
-              <nav>
-                 <div class="nav-link-container">
-                    <ul class="nav-link">
-                        <li> <a href="#about">About</a> </li>
-                        <li> <a href="#experience">Skills</a> </li>
-                        <li> <a href="#project">Project</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
-                    </ul>
-                 </div>
-              </nav>
-              <p> Copyright &#169; 2025 Swapan. All Rights Reserved. </p>
-          </footer>       
+        <footer>
+            <div class="nav-link-container">
+                <ul class="nav-link">
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#experience">Experience</a> </li>
+                    <li> <a href="#project">Projects</a> </li>
+                    <li> <a href="#contact">Contact</a> </li>
+                </ul>
+             </div>
+             <p> Copyright &#169; 2025 Swapan. All Rights Reserved. </p>
+        </footer>       
                                                                                                                                                                            
     </body>
     
